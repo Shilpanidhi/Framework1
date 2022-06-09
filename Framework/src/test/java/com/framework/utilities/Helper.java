@@ -40,6 +40,7 @@ public class Helper {
 		
 		Date currentDate=new Date();
 		return curFormat.format(currentDate);
+		//return;
 		
 	}
 	
