@@ -2,35 +2,35 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-03T10:08:15 PDT" name="Default suite" finished-at="2022-06-03T10:08:31 PDT" duration-ms="15399">
+  <suite started-at="2022-06-12T03:50:48 PDT" name="Default suite" finished-at="2022-06-12T03:51:05 PDT" duration-ms="17758">
     <groups>
     </groups>
-    <test started-at="2022-06-03T10:08:15 PDT" name="Default test" finished-at="2022-06-03T10:08:31 PDT" duration-ms="15399">
+    <test started-at="2022-06-12T03:50:48 PDT" name="Default test" finished-at="2022-06-12T03:51:05 PDT" duration-ms="17758">
       <class name="com.framework.testcase.LoginTest">
-        <test-method is-config="true" signature="suitSetup()[pri:0, instance:com.framework.testcase.LoginTest@694abbdc]" started-at="2022-06-03T10:08:15 PDT" name="suitSetup" finished-at="2022-06-03T10:08:15 PDT" duration-ms="849" status="PASS">
+        <test-method is-config="true" signature="suitSetup()[pri:0, instance:com.framework.testcase.LoginTest@54bff557]" started-at="2022-06-12T03:50:46 PDT" name="suitSetup" finished-at="2022-06-12T03:50:48 PDT" duration-ms="1674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suitSetup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.framework.testcase.LoginTest@694abbdc]" started-at="2022-06-03T10:08:15 PDT" name="setup" finished-at="2022-06-03T10:08:23 PDT" duration-ms="7250" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.framework.testcase.LoginTest@54bff557]" started-at="2022-06-12T03:50:48 PDT" name="setup" finished-at="2022-06-12T03:50:56 PDT" duration-ms="8157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginApp()[pri:0, instance:com.framework.testcase.LoginTest@694abbdc]" started-at="2022-06-03T10:08:23 PDT" name="LoginApp" finished-at="2022-06-03T10:08:23 PDT" duration-ms="283" status="PASS">
+        <test-method signature="LoginApp()[pri:0, instance:com.framework.testcase.LoginTest@54bff557]" started-at="2022-06-12T03:50:56 PDT" name="LoginApp" finished-at="2022-06-12T03:50:56 PDT" duration-ms="386" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginApp -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.framework.testcase.LoginTest@694abbdc]" started-at="2022-06-03T10:08:23 PDT" name="tearDownMethod" finished-at="2022-06-03T10:08:30 PDT" duration-ms="7216" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.framework.testcase.LoginTest@54bff557]" started-at="2022-06-12T03:50:56 PDT" name="tearDownMethod" finished-at="2022-06-12T03:51:04 PDT" duration-ms="7827" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginApp status=SUCCESS method=LoginTest.LoginApp()[pri:0, instance:com.framework.testcase.LoginTest@694abbdc] output={null}]]]>
+                <![CDATA[[TestResult name=LoginApp status=SUCCESS method=LoginTest.LoginApp()[pri:0, instance:com.framework.testcase.LoginTest@54bff557] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.testcase.LoginTest@694abbdc]" started-at="2022-06-03T10:08:30 PDT" name="tearDown" finished-at="2022-06-03T10:08:31 PDT" duration-ms="596" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.testcase.LoginTest@54bff557]" started-at="2022-06-12T03:51:04 PDT" name="tearDown" finished-at="2022-06-12T03:51:05 PDT" duration-ms="1340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
