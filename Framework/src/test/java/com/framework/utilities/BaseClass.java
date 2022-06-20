@@ -29,7 +29,8 @@ public ExtentTest logger;
 public void suitSetup() {
 	ss=new ExcelDataProvider ();
 	  cb=new ConfigDataProvider();
-	ExtentSparkReporter extent=new ExtentSparkReporter(new File("./Reports/" + Helper.getCurrentDateTime() + "_ss.html"));
+	//ExtentSparkReporter extent=new ExtentSparkReporter(new File("./Reports/" + Helper.getCurrentDateTime() + "_ss.html"));
+	ExtentSparkReporter extent=new ExtentSparkReporter(new File("./Reports/ ExtentReports_ss.html"));
 	  report=new ExtentReports();
 	  report.attachReporter(extent);
 }

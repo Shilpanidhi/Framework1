@@ -18,8 +18,8 @@ public class Helper {
 		
 		
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	//String path="./Screenshots/" + getCurrentDateTime()+ "_ss.png";
-		String path="./Screenshots/ExtentReports_ss.png";
+	String path="./Screenshots/" + getCurrentDateTime()+ "_ss.png";
+		//String path="./Screenshots/ExtentReports_ss.png";
 		
 	 try {
 		//FileHandler.copy(src,new File("./Screenshots/" + getCurrentDateTime()+ "_ss.png"));
